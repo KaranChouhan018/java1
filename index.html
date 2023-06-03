@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Impressssssss.</title>
+</head>
+<body>
+    <div class="div1">
+        <h1>Can We Hang Out Soon ?</h1>
+        <br>
+        <img src="https://media.tenor.com/zGm5acSjHCIAAAAM/cat-begging.gif" alt="">
+        <button id="btn1">YES </button>
+        <button id="btn2">NO</button>
+    </div>
+</body>
+<script>
+    const button2 = document.getElementById('btn2');
+let left = 40;
+button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 44;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+</script>
+<script>
+    document.getElementById('btn1').addEventListener('click',function(){
+        alert("THANKEWWWWWWWWWWWWWW SO MUCHHHHHHHHH !")
+    })
+</script>
+</html>
